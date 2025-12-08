@@ -76,63 +76,54 @@ style: |
   - Gemini (Google)
   - DeepSeek (چین)
 
-
 ---
 ![bg opacity:0.5](img//Trial-01-01.jpg)
 
-<style>
-.grid-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2rem;
-  margin-top: 7.5rem;
+| گذشته: | امروز: |
+|:-------|:-------|
+|جستجو در Google  |دستیارهای هوشمند پژوهشی |
+|مطالعه صدها مقاله |خلاصه‌سازی خودکار |
+|نگارش دستی |کمک در نگارش و ویرایش |
+|کدنویسی از صفر |تولید کد با AI |
+
+
+<style scoped>
+table {
+  width: 45%;
+  margin: 0rem auto;
+  border-collapse: separate;
+  border-spacing: 30px;
+  border: none;
 }
-.grid-section {
-  padding: 1rem;
+th {
+  text-align: center !important;
+  font-size: 1.5em;
+  border-bottom: 2px solid #333;
+  padding-bottom: 1px;
 }
-.past-section {
-  border-right: 2px solid #ccc;
-  padding-right: 2rem;
+td {
+  text-align: right;
+  vertical-align: top;
+  border: none !important;
+  padding: 1px;
 }
-.today-section {
-  padding-left: 2rem;
+td:first-child {
+  border-left: 3px solid #888;
 }
-h3 {
-  margin-top: 0;
-  color: #333;
-}
-ul {
-  margin: 1rem 0;
-  padding-left: 1.5rem;
+td:last-child {
+  border-right: 3px solid #888;
 }
 </style>
 
-## تحول در فرآیند پژوهش
-
-<div class="grid-container">
-  <div class="grid-section past-section">
-    <ul>
-      <li>دستیارهای هوشمند پژوهشی</li>
-      <li>خلاصه‌سازی خودکار</li>
-      <li>کمک در نگارش و ویرایش</li>
-      <li>تولید کد با AI</li>
-    </ul>
-  </div>
-  
-  <div class="grid-section today-section">
-    <ul>
-          <li>جستجو در Google </li>
-      <li>مطالعه صدها مقاله</li>
-      <li>نگارش دستی</li>
-      <li>کدنویسی از صفر</li>
-    </ul>
-  </div>
-</div>
 ---
+![video](https://mamintoosi-cs.github.io/slides/topics/Research-In-AI-Age/AI_Research_Workflow.mp4)
 
 ---
-<video controls width="100%">
+
+<!-- html -->
+<video controls width="90%" style="display: block; margin: 2rem auto;">
   <source src="https://mamintoosi-cs.github.io/slides/topics/Research-In-AI-Age/AI_Research_Workflow.mp4" type="video/mp4">
+  مرورگر شما از تگ ویدئو پشتیبانی نمی‌کند.
 </video>
 
 ---
