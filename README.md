@@ -1,7 +1,13 @@
 ---
 marp: true
-theme: default
+title: Research in the AI Age
+theme: gaia
+class:
+- invert
 paginate: true
+size: 16:9
+author: Mahmood Amintoosi
+transition: fade
 direction: rtl
 style: |
   section {
@@ -16,10 +22,19 @@ style: |
     direction: ltr;
     text-align: left;
   }
+    /* تنظیم مستقیم برای عناصر عنوان */
+  section:first-of-type h1 {
+    margin-top: 120px;
+  }
+  section:first-of-type h2 {
+    margin-top: 30px;
+  }
 ---
 
-<!-- _class: lead -->
-### بسم الله الرحمان الرحیم
+![bg cover opacity:.5](img/title-page..jpg)
+
+ بسم الله الرحمان الرحیم
+
 # پژوهش در عصر هوش مصنوعی
 ## فرصت‌ها و چالش‌ها
 
@@ -27,6 +42,9 @@ style: |
 دانشکده علوم ریاضی - دانشگاه فردوسی مشهد
 
 [mamintoosi.github.io](https://mamintoosi.github.io/)
+
+<!-- _footer: گروه علوم کامپیوتر -->
+<!-- _paginate: false -->
 
 ---
 
@@ -41,12 +59,12 @@ style: |
 
 ---
 
-<!-- _class: lead -->
+![bg opacity:0.3](img/Gen-AI.webp)
 # بخش اول
 ## هوش مصنوعی مولد: انقلاب در پژوهش
 
 ---
-![bg opacity:0.3](https://mamintoosi-cs.github.io/slides/topics/intro-to-cs/images/Richard-Stallman.jpg)
+![bg opacity:0.3](img//AI-gemini-generated.jpg)
 ## هوش مصنوعی مولد چیست؟
 
 - **تعریف:** مدل‌هایی که یاد می‌گیرند محتوای جدید «خلق» کنند
@@ -58,25 +76,66 @@ style: |
   - Gemini (Google)
   - DeepSeek (چین)
 
+
 ---
+![bg opacity:0.5](img//Trial-01-01.jpg)
+
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin-top: 7.5rem;
+}
+.grid-section {
+  padding: 1rem;
+}
+.past-section {
+  border-right: 2px solid #ccc;
+  padding-right: 2rem;
+}
+.today-section {
+  padding-left: 2rem;
+}
+h3 {
+  margin-top: 0;
+  color: #333;
+}
+ul {
+  margin: 1rem 0;
+  padding-left: 1.5rem;
+}
+</style>
 
 ## تحول در فرآیند پژوهش
 
-### گذشته:
-- جستجو در Google Scholar
-- مطالعه صدها مقاله
-- نگارش دستی
-- کدنویسی از صفر
-
-### امروز:
-- دستیارهای هوشمند پژوهشی
-- خلاصه‌سازی خودکار
-- کمک در نگارش و ویرایش
-- تولید کد با AI
-
+<div class="grid-container">
+  <div class="grid-section past-section">
+    <ul>
+      <li>دستیارهای هوشمند پژوهشی</li>
+      <li>خلاصه‌سازی خودکار</li>
+      <li>کمک در نگارش و ویرایش</li>
+      <li>تولید کد با AI</li>
+    </ul>
+  </div>
+  
+  <div class="grid-section today-section">
+    <ul>
+          <li>جستجو در Google </li>
+      <li>مطالعه صدها مقاله</li>
+      <li>نگارش دستی</li>
+      <li>کدنویسی از صفر</li>
+    </ul>
+  </div>
+</div>
 ---
 
-<!-- _class: lead -->
+---
+<video controls width="100%">
+  <source src="https://mamintoosi-cs.github.io/slides/topics/Research-In-AI-Age/AI_Research_Workflow.mp4" type="video/mp4">
+</video>
+
+---
 
 مثالهایی که باید اضافه کنم:
 
@@ -92,13 +151,13 @@ style: |
 
 ---
 
-<!-- _class: lead -->
+
 
 با ارسال تصویر کارت دانشگاه حساب کاربری من در گیت هاب کوپایلوت که معمولی بود، Pro شد 🤩 و محدودیت ۵۰ چت رو دیگه ندارم
 
 ---
 
-<!-- _class: lead -->
+
 # بخش دوم
 ## ابزارهای هوش مصنوعی برای پژوهش
 
@@ -153,7 +212,7 @@ style: |
 
 ---
 
-<!-- _class: lead -->
+
 # بخش سوم
 ## مهندسی پرامپت: کلید استفاده موثر
 
@@ -281,7 +340,7 @@ style: |
 
 ---
 
-<!-- _class: lead -->
+
 # بخش چهارم
 ## فرصت‌های AI در علوم کامپیوتر
 
@@ -365,7 +424,7 @@ age, income, education بخواند و همبستگی بین
 
 ---
 
-<!-- _class: lead -->
+
 # بخش پنجم
 
 ## ابزارهای تولید کلپپ
@@ -375,7 +434,7 @@ age, income, education بخواند و همبستگی بین
 
 ---
 
-<!-- _class: lead -->
+
 # بخش ششم
 ## چالش‌ها و ملاحظات اخلاقی
 
@@ -455,7 +514,7 @@ age, income, education بخواند و همبستگی بین
 
 ---
 
-<!-- _class: lead -->
+
 # بخش ششم
 ## بهترین شیوه‌ها (Best Practices)
 
@@ -504,7 +563,7 @@ age, income, education بخواند و همبستگی بین
 
 ---
 
-<!-- _class: lead -->
+
 # جمع‌بندی
 
 ---
@@ -530,7 +589,7 @@ age, income, education بخواند و همبستگی بین
 
 ---
 
-<!-- _class: lead -->
+
 # پرسش و پاسخ
 
 **دکتر محمود امین‌طوسی**
