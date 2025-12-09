@@ -120,27 +120,75 @@ td:last-child {
 </style>
 
 ---
+| | |
+|:---:|:---:|
+| ![](img/Trial-01-02.jpg) | ![](img/Trial-01-03.jpg) |
 
-![width=100](img/Trial-01-01.jpg)
+--- 
 
----
+
+  <video 
+    controls 
+    style="
+      max-height: 100%;
+      width: auto;
+      max-width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+    ">
+    <source src="img/Research-Accelerator.mp4" type="video/mp4">
+    مرورگر شما از تگ ویدئو پشتیبانی نمی‌کند.
+  </video>
+
+<style scoped>
+table {
+  width: 100%;
+  border: none;
+}
+td {
+  text-align: center;
+  vertical-align: top;
+  border: none !important;
+}
+img {
+  max-width: 90%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+}
+</style>
+
+<!-- ---
 
 <iframe src="https://example.com"></iframe>
 
 ---
 
-<iframe src="http://koaning.io/fluctuating-repetition.html" height="300px" width="100%" frameBorder="0"></iframe>
-
----
-![video](https://mamintoosi-cs.github.io/slides/topics/Research-In-AI-Age/AI_Research_Workflow.mp4)
+<iframe src="http://koaning.io/fluctuating-repetition.html" height="300px" width="100%" frameBorder="0"></iframe> -->
 
 ---
 
 <!-- html -->
-<video controls width="90%" style="display: block; margin: 2rem auto;">
-  <source src="https://mamintoosi-cs.github.io/slides/topics/Research-In-AI-Age/AI_Research_Workflow.mp4" type="video/mp4">
-  مرورگر شما از تگ ویدئو پشتیبانی نمی‌کند.
-</video>
+<div style="
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  margin: 0 auto;
+">
+  <video 
+    controls 
+    style="
+      max-height: 100%;
+      width: auto;
+      max-width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+    ">
+    <source src="https://mamintoosi-cs.github.io/slides/topics/Research-In-AI-Age/AI_Research_Workflow.mp4" type="video/mp4">
+    مرورگر شما از تگ ویدئو پشتیبانی نمی‌کند.
+  </video>
+</div>
 
 ---
 
