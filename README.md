@@ -31,7 +31,7 @@ style: |
   }
 ---
 
-![bg cover opacity:.5](img/title-page..jpg)
+![bg cover opacity:.7](img/title-page..jpg)
 
  بسم الله الرحمان الرحیم
 
@@ -47,7 +47,6 @@ style: |
 <!-- _paginate: false -->
 
 ---
-
 ## سرفصل‌های ارائه
 
 1. هوش مصنوعی مولد: انقلاب در پژوهش
@@ -77,7 +76,12 @@ style: |
   - DeepSeek (چین)
 
 ---
-![bg opacity:0.5](img//Trial-01-01.jpg)
+![bg right](img/mAmintoosi-50.jpg)
+
+## تمام تصاویر و ویدئوهای این ارائه که در آن تصویر اینجانب آمده است با هوش مصنوعی مولد و فقط با دادن این عکس و دستور متنی تولید شده‌اند
+
+---
+![bg opacity:1](img//Trial-01-01.jpg)
 
 | گذشته: | امروز: |
 |:-------|:-------|
@@ -114,6 +118,18 @@ td:last-child {
   border-right: 3px solid #888;
 }
 </style>
+
+---
+
+![width=100](img/Trial-01-01.jpg)
+
+---
+
+<iframe src="https://example.com"></iframe>
+
+---
+
+<iframe src="http://koaning.io/fluctuating-repetition.html" height="300px" width="100%" frameBorder="0"></iframe>
 
 ---
 ![video](https://mamintoosi-cs.github.io/slides/topics/Research-In-AI-Age/AI_Research_Workflow.mp4)
