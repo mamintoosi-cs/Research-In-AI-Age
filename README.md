@@ -58,6 +58,25 @@ style: |
 
 ---
 
+<!-- html -->
+<video 
+  autoplay 
+  loop 
+  muted 
+  style="
+    max-height: 70vh;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+  ">
+  <source src="img/Classical-Academic-Researcher.mp4" type="video/mp4">
+  مرورگر شما از تگ ویدئو پشتیبانی نمی‌کند.
+</video>
+
+---
+
 ![bg opacity:0.3](img/Gen-AI.webp)
 # بخش اول
 ## هوش مصنوعی مولد: انقلاب در پژوهش
@@ -119,10 +138,10 @@ td:last-child {
 }
 </style>
 
----
+<!-- ---
 | | |
 |:---:|:---:|
-| ![](img/Trial-01-02.jpg) | ![](img/Trial-01-03.jpg) |
+| ![](img/Trial-01-02.jpg) | ![](img/Trial-01-03.jpg) | -->
 
 --- 
 
@@ -173,7 +192,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 90vh;
+  height: 50vh;
   margin: 0 auto;
 ">
   <video 
