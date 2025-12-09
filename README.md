@@ -57,12 +57,12 @@ style: |
 6. بهترین شیوه‌ها
 
 ---
-
-<!-- html -->
-<video 
   autoplay 
   loop 
   muted 
+<!-- html -->
+<video 
+  controls 
   style="
     max-height: 70vh;
     width: auto;
