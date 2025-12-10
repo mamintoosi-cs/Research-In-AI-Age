@@ -11,12 +11,16 @@ transition: fade
 direction: rtl
 style: |
   section {
-    font-family: 'B Nazanin', 'Tahoma', sans-serif;
+    font-family: 'Vazirmatn', 'B Nazanin', 'Tahoma', sans-serif;
     direction: rtl;
     text-align: right;
   }
   h1, h2, h3 {
     text-align: center;
+  }
+  h6 {
+    text-align: left;
+    direction: ltr;
   }
   code {
     direction: ltr;
@@ -28,6 +32,16 @@ style: |
   }
   section:first-of-type h2 {
     margin-top: 30px;
+  }
+  table {
+  width: 95%;
+  margin: 0rem auto;
+  border-spacing: 30px;
+  border: none;
+  }
+  th, td {
+    text-align: center;
+    font-size: 0.95em;
   }
 ---
 
@@ -57,10 +71,6 @@ style: |
 6. بهترین شیوه‌ها
 
 ---
-  autoplay 
-  loop 
-  muted 
-
 <!-- html -->
 <div style="
   display: flex;
@@ -91,24 +101,6 @@ style: |
 ![bg opacity:0.3](img/Gen-AI.webp)
 # بخش اول
 ## هوش مصنوعی مولد: انقلاب در پژوهش
-
----
-![bg opacity:0.3](img//AI-gemini-generated.jpg)
-## هوش مصنوعی مولد چیست؟
-
-- **تعریف:** مدل‌هایی که یاد می‌گیرند محتوای جدید «خلق» کنند
-  - مانند یک نویسنده، نقاش، یا برنامه‌نویس
-
-- **مدل‌های محبوب:**
-  - ChatGPT (OpenAI)
-  - Claude (Anthropic)
-  - Gemini (Google)
-  - DeepSeek (چین)
-
----
-![bg right](img/mAmintoosi-50.jpg)
-
-## تمام تصاویر و ویدئوهای این ارائه که در آن تصویر اینجانب آمده است با هوش مصنوعی مولد و فقط با دادن این عکس و دستور متنی تولید شده‌اند
 
 ---
 ![bg opacity:1](img//Trial-01-01.jpg)
@@ -149,14 +141,99 @@ td:last-child {
 }
 </style>
 
+---
+![bg right](img/mAmintoosi-50.jpg)
+
+## تمام تصاویر و ویدئوهای این ارائه که در آن تصویر اینجانب آمده است با هوش مصنوعی مولد و فقط با دادن این عکس و دستور متنی تولید شده‌اند
+
+---
+![bg opacity:0.3](img/AI-gemini-generated.jpg)
+## هوش مصنوعی مولد چیست؟
+
+- **تعریف:** مدل‌هایی که یاد می‌گیرند محتوای جدید «خلق» کنند
+  - مانند یک نویسنده، نقاش، یا برنامه‌نویس
+
+- **مدل‌های محبوب:**
+  - ChatGPT (OpenAI)
+  - Claude (Anthropic)
+  - Gemini (Google)
+  - DeepSeek (چین)
+
+---
+![bg opacity:0.25](img/text-to-text-bg.jpg)
+## مدل‌های «تولید متن از متن» (Text → Text)
+
+| نمونه | کاربرد اصلی | وب‌سایت |
+|--------|----------------|-----------|
+| [ChatGPT](https://chatgpt.com) | گفتگو، کدنویسی، نگارش علمی | OpenAI |
+| [Claude](https://claude.ai) | تحلیل عمیق، استدلال متنی | Anthropic |
+| [Gemini](https://gemini.google.com) | چندوجهی، جستجوی هوشمند | Google |
+| [DeepSeek](https://chat.deepseek.com) | استدلال و کدنویسی | DeepSeek |
+| [Microsoft Copilot](https://copilot.microsoft.com) | دستیار برنامه‌نویسی و آفیس | Microsoft |
+
+> این گروه، ستون فقرات ابزارهای پژوهشی مبتنی بر LLM محسوب می‌شود.
+
+
+---
+![bg opacity:0.25](img/text-to-image-free-bg.jpg)
+## تولید تصویر از متن —  (Text → Image)
+
+| ابزار | کاربرد / ویژگی | وب‌سایت |
+|-------|------------------|------------------|
+| [DALL·E](https://openai.com/dall-e) | تولید تصویر از متن با کیفیت بالا | OpenAI |
+| [Stable Diffusion](https://stability.ai) | متن-باز، سفارشی‌سازی، کنترل تنظیمات | Stability AI |
+| [Canva AI](https://www.canva.com) | طراحی گرافیک + تولید تصویر آسان | Canva |
+| [Leonardo AI](https://www.leonardo.ai) | تصویرسازی هنری / مفهومی، برای پروژه و محتوا | Leonardo AI |
+| [Dream by Wombo](https://www.wombo.art) | تولید سریع تصویر با سبک هنری از متن | Wombo |
+
+> این ابزارها برای کسانی مناسب‌اند که می‌خواهند بدون هزینه زیاد، تصویرسازی با هوش مصنوعی را آغاز کنند.
+
+
+---
+یک متن فارسی در مورد ترکیبی از خصوصیات سه تن از اساتید را به کوپایلوت دادم و پرامپت مناسب به زبان انگلیسی خواستم که این شد:
+
+###### A cheerful middle-aged professor (around 45 years old) with short beard and salt-and-pepper hair, smiling warmly in his office at Ferdowsi University of Mashhad. His office is decorated with Tintin posters, figurines, and memorabilia, along with many flowers and green plants. A large glass blackboard, gifted by his students, is mounted on the wall, covered with colorful mathematical formulas written in marker. Several students are gathered around him, engaged in lively discussion, showing their admiration for his love of teaching. The office also contains a sofa, desk, chairs, computer, and coffee, creating a cozy and intellectual atmosphere full of energy and inspiration.
+
+
+---
+
+## خروجی کوپایلوت با GPT-5
+
+![bg opacity:0.8](img/Copilot_GPT5.jpg)
+
+---
+
+## خروجی imagine.art با Nano-Banana-Pro
+
+![bg opacity:0.8](img/imagine.art-Nano-Banana-Pro_A_cheerful_middle-aged_professor.jpg)
+
+---
+![bg right opacity:0.8](img/NST-Amintoosi.png)
+## مقایسه دو ابزار رایگان تولید تصویر با AI
+
+- GPT-5 vs Nano Banana Pro  
+- تفاوت در واقع‌گرایی، وضوح، سبک هنری  
+- مناسب برای کدام کاربرد؟ (پوستر، ارائه، مقاله، تصویرسازی مفهومی)  
+- برای اطلاعات بیشتر در مورد شیوه تقلید یک اثر هنری در نقاشی ارائه‌ی قبلی با عنوان [انتقال سبک عصبی](https://1drv.ms/p/c/31166a0f5c94f268/EWjylFwPahYggDGCUwAAAAAB8JI2ARAES9QukZKKiM_EHw?e=qsdToe) را ملاحظه فرمایید
+---
+![bg opacity:0.8](img/one-year-fall-scene.jpg)
+به عنوان جزیی از موضوع، به نحوه ایجاد همین اسلایدها اشاره می شود
+
+دسته بندی انواع مدلهای زبانی از نظر توانایی های مختلف
+
+https://movieflow.ai/signup?inviteCode=ZCKDT14H
+
+---
+![bg opacity:0.8](img/one-year-winter-scene.jpg)
+
+
+
 <!-- ---
 | | |
 |:---:|:---:|
 | ![](img/Trial-01-02.jpg) | ![](img/Trial-01-03.jpg) | -->
 
 --- 
-
-
   <video 
     controls 
     style="
@@ -197,6 +274,37 @@ img {
 <iframe src="http://koaning.io/fluctuating-repetition.html" height="300px" width="100%" frameBorder="0"></iframe> -->
 
 ---
+![bg opacity:0.8](img/one-year-surperised.jpg)
+
+---
+<!-- html -->
+<div style="
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  margin: 0 auto;
+">
+  <video 
+    autoplay 
+    loop 
+    muted 
+    controls 
+    style="
+      max-height: 100%;
+      width: auto;
+      max-width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+    ">
+    <source src="img/one-year.mp4" type="video/mp4">
+    مرورگر شما از تگ ویدئو پشتیبانی نمی‌کند.
+  </video>
+</div>
+
+---
+
+اضافه کردن کلیپ حالت قبل به کنار این کلیپ
 
 <!-- html -->
 <div style="
@@ -537,6 +645,18 @@ age, income, education بخواند و همبستگی بین
 - منابع را دوباره بررسی کنید
 - از چند منبع استفاده کنید
 - به AI اعتماد کورکورانه نداشته باشید
+
+---
+
+حتی نتایج گوگل هم ممکن است اشتباه باشد! 
+
+![](img/ISPRS-google-result.png)
+
+---
+
+| | |
+|:---:|:---:|
+| ![](img/ISPRS-ISSN-scimago-impactfactor.png) | ![](img/ISPRS-ISSN-google-kg-impactfactor.png) |
 
 ---
 
