@@ -290,7 +290,7 @@ https://movieflow.ai/signup?inviteCode=ZCKDT14H
 <video 
     controls 
     style="
-      max-height: 100%;
+      max-height: 80%;
       width: auto;
       max-width: 100%;
       border-radius: 12px;
