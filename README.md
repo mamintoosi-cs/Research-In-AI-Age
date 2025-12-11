@@ -85,9 +85,9 @@ style: |
     muted 
     controls 
     style="
-      max-height: 100%;
+      max-height: 90%;
       width: auto;
-      max-width: 100%;
+      max-width: 90%;
       border-radius: 12px;
       box-shadow: 0 6px 20px rgba(0,0,0,0.25);
     ">
@@ -304,28 +304,105 @@ img {
 
 ---
 
-اضافه کردن کلیپ حالت قبل به کنار این کلیپ
-
 <!-- html -->
 <div style="
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80vh;
+  gap: 30px; /* فاصله بین ویدئوها */
+  height: 75vh;
   margin: 0 auto;
 ">
-  <video 
-    controls 
-    style="
-      max-height: 100%;
-      width: auto;
-      max-width: 100%;
-      border-radius: 12px;
-      box-shadow: 0 6px 20px rgba(0,0,0,0.25);
-    ">
-    <source src="https://mamintoosi-cs.github.io/slides/topics/Research-In-AI-Age/AI_Research_Workflow.mp4" type="video/mp4">
-    مرورگر شما از تگ ویدئو پشتیبانی نمی‌کند.
-  </video>
+  <!-- ویدئوی اول -->
+  <div style="
+    flex: 1;
+    max-width: 45%;
+    text-align: center;
+  ">
+    <video 
+      controls 
+      style="
+        max-height: 100%;
+        width: 100%;
+        max-width: 100%;
+        border-radius: 12px;
+        box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+      ">
+      <source src="img/AI_Research_Workflow.mp4" type="video/mp4">
+      مرورگر شما از تگ ویدئو پشتیبانی نمی‌کند.
+    </video>
+    <div style="margin-top: 10px; font-size: 0.9em; font-weight: bold;">
+      گردش کار پژوهشی هوش مصنوعی
+    </div>
+  </div>
+  
+  <!-- ویدئوی دوم -->
+  <div style="
+    flex: 1;
+    max-width: 45%;
+    text-align: center;
+  ">
+    <video 
+      controls 
+      style="
+        max-height: 100%;
+        width: 100%;
+        max-width: 100%;
+        border-radius: 12px;
+        box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+      ">
+      <source src="img/Academic_Seasons_Research_Flow.mp4" type="video/mp4">
+      مرورگر شما از تگ ویدئو پشتیبانی نمی‌کند.
+    </video>
+    <div style="margin-top: 10px; font-size: 0.9em; font-weight: bold;">
+      چرخه‌های پژوهشی دانشگاهی
+    </div>
+  </div>
+</div>
+
+---
+
+<!-- html -->
+<div style="
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+">
+  <div style="width: 45%; text-align: center;">
+    <video 
+      autoplay 
+      loop 
+      muted 
+      controls
+      style="
+        width: 100%;
+        height: 60vh;
+        border-radius: 10px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+      ">
+      <source src="img/AI_Research_Workflow.mp4" type="video/mp4">
+    </video>
+    <div style="margin-top: 10px;"><strong>ویدئوی ۱</strong></div>
+  </div>
+  
+  <div style="width: 45%; text-align: center;">
+    <video 
+      autoplay 
+      loop 
+      muted 
+      controls
+      style="
+        width: 100%;
+        height: 60vh;
+        border-radius: 10px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+      ">
+      <source src="img/Academic_Seasons_Research_Flow.mp4" type="video/mp4">
+    </video>
+    <div style="margin-top: 10px;"><strong>ویدئوی ۲</strong></div>
+  </div>
 </div>
 
 ---
