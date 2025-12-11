@@ -311,6 +311,8 @@ img {
 ---
 ![bg opacity:0.8](img/one-year-surperised.jpg)
 
+# برای تولید ویدئو باید با استفاده از مدلهای زبانی سناریو نوشته شود.
+
 ---
 <!-- html -->
 <div style="
@@ -326,7 +328,7 @@ img {
     muted 
     controls 
     style="
-      max-height: 100%;
+      max-height: 90%;
       width: auto;
       max-width: 100%;
       border-radius: 12px;
@@ -382,6 +384,31 @@ img {
   </div>
 </div>
 
+---
+<!-- html -->
+<div style="
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  margin: 0 auto;
+">
+  <video 
+    autoplay 
+    loop 
+    muted 
+    controls 
+    style="
+      max-height: 80%;
+      width: auto;
+      max-width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+    ">
+    <source src="img/From-Traditional-Research-to AI-Powered-Acceleration.mp4" type="video/mp4">
+    مرورگر شما از تگ ویدئو پشتیبانی نمی‌کند.
+  </video>
+</div>
 ---
 
 مثالهایی که باید اضافه کنم:
