@@ -233,6 +233,24 @@ td:last-child {
 
 
 ---
+![bg opacity:0.2](img/one-year-fall-scene.jpg)
+## تولید ویدئو از متن  (Text → Video)
+
+
+| ابزار | کاربرد / ویژگی |
+|-------|-----------------------------|
+| [MovieFlow](https://movieflow.ai/signup?inviteCode=ZCKDT14H) | تولید ویدئوهای کوتاه با استایل سینمایی، پلن رایگان |
+| [Hailuo AI Video](https://hailuoai.video/) | تولید سریع ویدئو از متن، نسخه رایگان دارد |
+| [Luma AI (Dream Machine)](https://lumalabs.ai/dream-machine) | حرکت طبیعی دوربین و اجسام، نسخه رایگان محدود |
+| [Runway Gen-2](https://runwayml.com) | تولید ویدئو از متن/عکس، نسخه رایگان محدود |
+| [Pika](https://www.pika.art) | ویدئوهای کوتاه خلاقانه، پلن رایگان |
+| [Kapwing AI Video](https://www.kapwing.com/ai) | ساخت کلیپ از متن، ابزارهای ویرایش رایگان |
+
+
+
+<!-- > ابزارهای Text→Video به سرعت در حال پیشرفت‌اند و برای آموزش، پرزنتیشن و تولید محتوای علمی بسیار مناسب شده‌اند. -->
+
+<!-- ---
 ![bg opacity:0.8](img/one-year-fall-scene.jpg)
 به عنوان جزیی از موضوع، به نحوه ایجاد همین اسلایدها اشاره می شود
 
@@ -243,7 +261,7 @@ https://movieflow.ai/signup?inviteCode=ZCKDT14H
 ---
 ![bg opacity:0.8](img/one-year-winter-scene.jpg)
 
-
+ -->
 
 <!-- ---
 | | |
