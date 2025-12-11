@@ -279,6 +279,7 @@ https://movieflow.ai/signup?inviteCode=ZCKDT14H
 | ![](img/Trial-01-02.jpg) | ![](img/Trial-01-03.jpg) | -->
 
 ---
+
 <!-- html -->
 <div style="
   display: flex;
@@ -287,18 +288,20 @@ https://movieflow.ai/signup?inviteCode=ZCKDT14H
   height: 80vh;
   margin: 0 auto;
 ">
-<video 
+  <video 
     controls 
     style="
-      max-height: 80%;
+      height: 100%;
       width: auto;
       max-width: 100%;
       border-radius: 12px;
       box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+      object-fit: contain;
+      background: #000;
     ">
-<source src="img/Research-Accelerator.mp4" type="video/mp4">
-مرورگر شما از تگ ویدئو پشتیبانی نمی‌کند.
-</video>
+    <source src="img/Research-Accelerator.mp4" type="video/mp4">
+    مرورگر شما از تگ ویدئو پشتیبانی نمی‌کند.
+  </video>
 </div>
 
 <!-- <iframe src="https://example.com"></iframe>
@@ -314,6 +317,7 @@ https://movieflow.ai/signup?inviteCode=ZCKDT14H
 # برای تولید ویدئو باید با استفاده از مدلهای زبانی سناریو نوشته شود.
 
 ---
+
 <!-- html -->
 <div style="
   display: flex;
@@ -338,6 +342,7 @@ https://movieflow.ai/signup?inviteCode=ZCKDT14H
 </div>
 
 ---
+
 <!-- html -->
 <div style="
   display: flex;
@@ -367,47 +372,54 @@ https://movieflow.ai/signup?inviteCode=ZCKDT14H
 
 ### ورودی/خروجی: متن، تصویر، صوت، ویدئو
 
-| مدل | توانایی / ویژگی کلیدی |
-|------|--------------------------|
-| [GPT-4o](https://chatgpt.com) | متن + تصویر + صوت؛ مکالمه چندحالته |
-| [Gemini 1.5](https://gemini.google.com) | پردازش متن، تصویر، صوت و ویدئو در مقیاس بزرگ |
-|~~~ [Claude 3](https://claude.ai)~~~ | تحلیل متن و تصویر با دقت بالا |
-| [Ollama Models](https://ollama.com/library) | اجرای مدل‌های متن‌باز (LLM / VLM) روی لپ‌تاپ |
-| [HuggingFace Multimodal](https://huggingface.co/unsloth) | مجموعه‌ای از مدل‌های رایگان متن-باز |
-
+| مدل                                                      | توانایی / ویژگی کلیدی                        |
+| -------------------------------------------------------- | -------------------------------------------- |
+| [GPT-4o](https://chatgpt.com)                            | متن + تصویر + صوت؛ مکالمه چندحالته           |
+| [Gemini 1.5](https://gemini.google.com)                  | پردازش متن، تصویر، صوت و ویدئو در مقیاس بزرگ |
+| ~~~ [Claude 3](https://claude.ai)~~~                     | تحلیل متن و تصویر با دقت بالا                |
+| [Ollama Models](https://ollama.com/library)              | اجرای مدل‌های متن‌باز (LLM / VLM) روی لپ‌تاپ |
+| [HuggingFace Multimodal](https://huggingface.co/unsloth) | مجموعه‌ای از مدل‌های رایگان متن-باز          |
 
 > مدل‌های چندوجهی مسیر حرکت به سوی «AI عمومی‌تر» (AGI-like) را نشان می‌دهند.
 
 ---
 
 ![bg opacity:0.22](img/github-copilot.webp)
-## GitHub Copilot / Copilot Pro  
+
+## GitHub Copilot / Copilot Pro
+
 ### دسترسی رایگان برای اعضای هیات علمی و دانشجویان دانشگاه‌ها
 
-| قابلیت | توضیح |
-|--------|--------|
-| تکمیل کد هوشمند | پیشنهاد خط به خط و بلاک‌های کامل کد |
-| تولید تست (Unit Tests) | ساخت تست‌های خودکار برای کلاس‌ها و توابع |
-| تبدیل زبان‌ها | تبدیل کد Python↔CPP↔Java↔C |
-| توضیح کد | مستندسازی خودکار کدها |
-| کمک در تدریس | تولید مثال‌ها، تمرین‌ها و راهنمایی برای دانشجویان |
-| کمک در پژوهش | پیاده‌سازی سریع ایده‌ها و الگوریتم‌ها |
+| قابلیت                 | توضیح                                             |
+| ---------------------- | ------------------------------------------------- |
+| تکمیل کد هوشمند        | پیشنهاد خط به خط و بلاک‌های کامل کد               |
+| تولید تست (Unit Tests) | ساخت تست‌های خودکار برای کلاس‌ها و توابع          |
+| تبدیل زبان‌ها          | تبدیل کد Python↔CPP↔Java↔C                        |
+| توضیح کد               | مستندسازی خودکار کدها                             |
+| کمک در تدریس           | تولید مثال‌ها، تمرین‌ها و راهنمایی برای دانشجویان |
+| کمک در پژوهش           | پیاده‌سازی سریع ایده‌ها و الگوریتم‌ها             |
 
 ---
+
 ![bg right opacity:0.8](img/copilot-pro.png)
-## لینک‌های رسمی  
-- [پلن‌ها و قیمت‌ها](https://docs.github.com/en/copilot/get-started/plans)  
-- [نحوه دریافت رایگان Copilot Pro برای اعضای هیات علمی](https://docs.github.com/en/copilot/how-tos/manage-your-account/get-free-access-to-copilot-pro)  
-- [اصول پرامپت‌نویسی در Copilot](https://docs.github.com/en/copilot/concepts/prompting/prompt-engineering)  
+
+## لینک‌های رسمی
+
+- [پلن‌ها و قیمت‌ها](https://docs.github.com/en/copilot/get-started/plans)
+- [نحوه دریافت رایگان Copilot Pro برای اعضای هیات علمی](https://docs.github.com/en/copilot/how-tos/manage-your-account/get-free-access-to-copilot-pro)
+- [اصول پرامپت‌نویسی در Copilot](https://docs.github.com/en/copilot/concepts/prompting/prompt-engineering)
 - [بهترین روش‌های استفاده](https://docs.github.com/en/copilot/get-started/best-practices)
 
-> Copilot Pro  یک ابزار کابردی در **پژوهش، آموزش و برنامه‌نویسی** است.
+> Copilot Pro یک ابزار کابردی در **پژوهش، آموزش و برنامه‌نویسی** است.
 
 > نیازمند تحریم شکن
 
 ---
+
 ![bg opacity:1](img/my-vscode-screen-shot.png)
-## VSCode 
+
+## VSCode
+
 ---
 
 <!-- html -->
@@ -452,8 +464,6 @@ https://movieflow.ai/signup?inviteCode=ZCKDT14H
     <div style="margin-top: 10px;"><strong>امروز</strong></div>
   </div>
 </div>
-
-
 
 ---
 
