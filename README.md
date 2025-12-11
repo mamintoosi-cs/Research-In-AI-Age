@@ -229,6 +229,10 @@ td:last-child {
 
 ---
 
+![bg width:90%](img/ChatGPT-limit.png)
+
+---
+
 ## تبدیل تصویر به تصویر (Image → Image)
 
 ![bg right](img/mAmintoosi-50.jpg)
@@ -392,11 +396,11 @@ https://movieflow.ai/signup?inviteCode=ZCKDT14H
 | -------------------------------------------------------- | -------------------------------------------- |
 | [GPT-4o](https://chatgpt.com)                            | متن + تصویر + صوت؛ مکالمه چندحالته           |
 | [Gemini 1.5](https://gemini.google.com)                  | پردازش متن، تصویر، صوت و ویدئو در مقیاس بزرگ |
-| ~~~ [Claude 3](https://claude.ai)~~~                     | تحلیل متن و تصویر با دقت بالا                |
+| [Claude 3](https://claude.ai)   | تحلیل متن و تصویر با دقت بالا                |
 | [Ollama Models](https://ollama.com/library)              | اجرای مدل‌های متن‌باز (LLM / VLM) روی لپ‌تاپ |
 | [HuggingFace Multimodal](https://huggingface.co/unsloth) | مجموعه‌ای از مدل‌های رایگان متن-باز          |
 
-> مدل‌های چندوجهی مسیر حرکت به سوی «AI عمومی‌تر» (AGI-like) را نشان می‌دهند.
+> مدل‌های چندوجهی مسیر حرکت به سوی [هوش جامع مصنوعی](https://fa.wikipedia.org/wiki/%D9%87%D9%88%D8%B4_%D8%AC%D8%A7%D9%85%D8%B9_%D9%85%D8%B5%D9%86%D9%88%D8%B9%DB%8C) (AGI-like) را نشان می‌دهند.
 
 ---
 
@@ -478,6 +482,60 @@ https://movieflow.ai/signup?inviteCode=ZCKDT14H
       <source src="img/AI_Research_Workflow.mp4" type="video/mp4">
     </video>
     <div style="margin-top: 10px;"><strong>امروز</strong></div>
+  </div>
+</div>
+
+---
+
+![bg opacity:0.22](img/ai-research-tools-bg.jpg)
+## ابزارهای هوش مصنوعی برای پژوهش علمی  
+### از جستجو تا مستندسازی و نگارش مقاله
+
+| ابزار | کاربرد اصلی |
+|------|-------------------------------|
+| [Scinito](https://scinito.ai/) | جست‌وجوی دقیق علمی، یافتن مقالات مرتبط |
+| [NotebookLM](https://notebooklm.google.com/) | ساخت مدل زبانی اختصاصی از PDFها و یادداشت‌های پژوهشی |
+| [Gemini](https://gemini.google.com/) | تحلیل فایل‌های PDF، استدلال علمی، جستجو |
+| [Connected Papers](https://www.connectedpapers.com/) | شبکه استنادی و یافتن مقاله‌های مشابه |
+| [Elicit](https://elicit.com/) | مرور ادبیات (Literature Review) نیمه‌خودکار |
+
+> این ابزارها چرخه پژوهش—from idea to publication—را سرعت می‌بخشند.
+
+---
+
+![bg](img/scinito-AI.png)
+
+[UM Library](https://library.um.ac.ir/index.php/fa/news-archive-fa/scinito-videos)
+
+[SciNiTO](https://www.scinito.ai/)
+
+---
+
+<!-- html -->
+<div style="
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh; /* یا 85vh */
+  margin: 0 auto;
+">
+  <div style="
+    width: 80%; /* یا 80% */
+    text-align: center;
+  ">
+    <video 
+      controls 
+      style="
+        width: 100%;
+        height: 70vh; 
+        border-radius: 12px;
+        box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+        background: #000; 
+        object-fit: contain; 
+      ">
+      <source src="https://library.um.ac.ir/images/Education/Tutorial_Videos/SCINITOAI/SCiNiTO%20AI-5%20Research%20Chatbot.mp4" type="video/mp4">
+      مرورگر شما از تگ ویدئو پشتیبانی نمی‌کند.
+    </video>
   </div>
 </div>
 
