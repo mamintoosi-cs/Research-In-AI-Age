@@ -336,50 +336,6 @@ https://movieflow.ai/signup?inviteCode=ZCKDT14H
   مرورگر شما از تگ ویدئو پشتیبانی نمی‌کند.
 </video>
 </div>
----
-
-<!-- html -->
-<div style="
-  display: flex;
-  gap: 30px;
-  justify-content: center;
-  align-items: center;
-  height: 70vh;
-">
-  <div style="width: 45%; text-align: center;">
-    <video 
-      autoplay 
-      loop 
-      muted 
-      controls
-      style="
-        width: 100%;
-        height: 60vh;
-        border-radius: 10px;
-        box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-      ">
-      <source src="img/Academic_Seasons_Research_Flow.mp4" type="video/mp4">
-    </video>
-    <div style="margin-top: 10px;"><strong>گذشته</strong></div>
-  </div>
-  
-  <div style="width: 45%; text-align: center;">
-    <video 
-      autoplay 
-      loop 
-      muted 
-      controls
-      style="
-        width: 100%;
-        height: 60vh;
-        border-radius: 10px;
-        box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-      ">
-      <source src="img/AI_Research_Workflow.mp4" type="video/mp4">
-    </video>
-    <div style="margin-top: 10px;"><strong>امروز</strong></div>
-  </div>
-</div>
 
 ---
 <!-- html -->
@@ -438,14 +394,65 @@ https://movieflow.ai/signup?inviteCode=ZCKDT14H
 | کمک در پژوهش | پیاده‌سازی سریع ایده‌ها و الگوریتم‌ها |
 
 ---
-![bg opacity:0.2](img/copilot-pro.png)
+![bg right opacity:0.8](img/copilot-pro.png)
 ## لینک‌های رسمی  
 - [پلن‌ها و قیمت‌ها](https://docs.github.com/en/copilot/get-started/plans)  
 - [نحوه دریافت رایگان Copilot Pro برای اعضای هیات علمی](https://docs.github.com/en/copilot/how-tos/manage-your-account/get-free-access-to-copilot-pro)  
 - [اصول پرامپت‌نویسی در Copilot](https://docs.github.com/en/copilot/concepts/prompting/prompt-engineering)  
 - [بهترین روش‌های استفاده](https://docs.github.com/en/copilot/get-started/best-practices)
 
-> Copilot Pro  یک ابزار بسیار مهم در **پژوهش، آموزش و برنامه‌نویسی** است.
+> Copilot Pro  یک ابزار کابردی در **پژوهش، آموزش و برنامه‌نویسی** است.
+
+> نیازمند تحریم شکن
+
+---
+![bg opacity:1](img/my-vscode-screen-shot.png)
+## VSCode 
+---
+
+<!-- html -->
+<div style="
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+">
+  <div style="width: 45%; text-align: center;">
+    <video 
+      autoplay 
+      loop 
+      muted 
+      controls
+      style="
+        width: 100%;
+        height: 60vh;
+        border-radius: 10px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+      ">
+      <source src="img/Academic_Seasons_Research_Flow.mp4" type="video/mp4">
+    </video>
+    <div style="margin-top: 10px;"><strong>گذشته</strong></div>
+  </div>
+  
+  <div style="width: 45%; text-align: center;">
+    <video 
+      autoplay 
+      loop 
+      muted 
+      controls
+      style="
+        width: 100%;
+        height: 60vh;
+        border-radius: 10px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+      ">
+      <source src="img/AI_Research_Workflow.mp4" type="video/mp4">
+    </video>
+    <div style="margin-top: 10px;"><strong>امروز</strong></div>
+  </div>
+</div>
+
 
 
 ---
