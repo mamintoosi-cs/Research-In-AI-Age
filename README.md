@@ -282,22 +282,27 @@ https://movieflow.ai/signup?inviteCode=ZCKDT14H
 
 <!-- html -->
 <div style="
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80vh;
-  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
 ">
   <video 
     controls 
     style="
-      height: 100%;
+      max-height: calc(100vh - 120px);
       width: auto;
-      max-width: 100%;
+      max-width: calc(100vw - 40px);
       border-radius: 12px;
       box-shadow: 0 6px 20px rgba(0,0,0,0.25);
-      object-fit: contain;
       background: #000;
+      display: block;
+      object-fit: contain;
     ">
     <source src="img/Research-Accelerator.mp4" type="video/mp4">
     مرورگر شما از تگ ویدئو پشتیبانی نمی‌کند.
