@@ -282,23 +282,7 @@ https://movieflow.ai/signup?inviteCode=ZCKDT14H
     مرورگر شما از تگ ویدئو پشتیبانی نمی‌کند.
   </video>
 
-<style scoped>
-table {
-  width: 100%;
-  border: none;
-}
-td {
-  text-align: center;
-  vertical-align: top;
-  border: none !important;
-}
-img {
-  max-width: 90%;
-  height: auto;
-  border-radius: 8px;
-  box-shadow: 0 3px 10px rgba(0,0,0,0.2);
-}
-</style>
+
 
 <!-- ---
 
@@ -314,21 +298,11 @@ img {
 # برای تولید ویدئو باید با استفاده از مدلهای زبانی سناریو نوشته شود.
 
 ---
-<!-- html -->
-<div style="
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 80vh;
-  margin: 0 auto;
-">
+
   <video 
-    autoplay 
-    loop 
-    muted 
     controls 
     style="
-      max-height: 90%;
+      max-height: 100%;
       width: auto;
       max-width: 100%;
       border-radius: 12px;
@@ -337,7 +311,6 @@ img {
     <source src="img/one-year.mp4" type="video/mp4">
     مرورگر شما از تگ ویدئو پشتیبانی نمی‌کند.
   </video>
-</div>
 
 ---
 
@@ -361,9 +334,9 @@ img {
         border-radius: 10px;
         box-shadow: 0 5px 15px rgba(0,0,0,0.2);
       ">
-      <source src="img/AI_Research_Workflow.mp4" type="video/mp4">
+      <source src="img/Academic_Seasons_Research_Flow.mp4" type="video/mp4">
     </video>
-    <div style="margin-top: 10px;"><strong>ویدئوی ۱</strong></div>
+    <div style="margin-top: 10px;"><strong>گذشته</strong></div>
   </div>
   
   <div style="width: 45%; text-align: center;">
@@ -378,9 +351,9 @@ img {
         border-radius: 10px;
         box-shadow: 0 5px 15px rgba(0,0,0,0.2);
       ">
-      <source src="img/Academic_Seasons_Research_Flow.mp4" type="video/mp4">
+      <source src="img/AI_Research_Workflow.mp4" type="video/mp4">
     </video>
-    <div style="margin-top: 10px;"><strong>ویدئوی ۲</strong></div>
+    <div style="margin-top: 10px;"><strong>امروز</strong></div>
   </div>
 </div>
 
@@ -409,6 +382,34 @@ img {
     مرورگر شما از تگ ویدئو پشتیبانی نمی‌کند.
   </video>
 </div>
+
+---
+![bg opacity:0.25](img/multimodal-models-bg.jpg)
+## مدل‌های چندوجهی — Multimodal AI Models  
+### ورودی/خروجی: متن، تصویر، صوت، ویدئو
+
+<style>
+table {
+  width: 95%;
+  margin: 0rem auto;
+  border-spacing: 30px;
+}
+th, td {
+  text-align: center;
+}
+</style>
+
+| مدل | توانایی / ویژگی کلیدی |
+|------|--------------------------|
+| [GPT-4o](https://chatgpt.com) | متن + تصویر + صوت؛ مکالمه چندحالته |
+| [Gemini 1.5](https://gemini.google.com) | پردازش متن، تصویر، صوت و ویدئو در مقیاس بزرگ |
+| [Claude 3](https://claude.ai) | تحلیل متن و تصویر با دقت بالا |
+| [LLaVA](https://llava-vl.github.io/) | مدل چندوجهی متن-باز برای پژوهش |
+| [HuggingFace Multimodal](https://huggingface.co/models?pipeline_tag=multimodal) | مجموعه‌ای از مدل‌های رایگان متن-باز |
+
+> مدل‌های چندوجهی مسیر حرکت به سوی «AI عمومی‌تر» (AGI-like) را نشان می‌دهند.
+
+
 ---
 
 مثالهایی که باید اضافه کنم:
