@@ -289,18 +289,18 @@ https://movieflow.ai/signup?inviteCode=ZCKDT14H
   margin: 0 auto;
 ">
   <div style="
-    width: 90%; /* یا 80% */
+    width: 80%; /* یا 80% */
     text-align: center;
   ">
     <video 
       controls 
       style="
         width: 100%;
-        height: 70vh; /* ارتفاع ثابت مانند کد دو ویدئویی */
+        height: 70vh; 
         border-radius: 12px;
         box-shadow: 0 6px 20px rgba(0,0,0,0.25);
-        background: #000; /* برای ویدئوهای با aspect ratio متفاوت */
-        object-fit: contain; /* نمایش کامل ویدئو */
+        background: #000; 
+        object-fit: contain; 
       ">
       <source src="img/Research-Accelerator.mp4" type="video/mp4">
       مرورگر شما از تگ ویدئو پشتیبانی نمی‌کند.
@@ -327,22 +327,27 @@ https://movieflow.ai/signup?inviteCode=ZCKDT14H
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80vh;
+  height: 80vh; /* یا 85vh */
   margin: 0 auto;
 ">
-<video 
-  controls 
-  style="
-    max-height: 100%;
-    width: auto;
-    max-width: 100%;
-    border-radius: 12px;
-    box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+  <div style="
+    width: 80%; /* یا 80% */
+    text-align: center;
   ">
-
-  <source src="img/one-year.mp4" type="video/mp4">
-  مرورگر شما از تگ ویدئو پشتیبانی نمی‌کند.
-</video>
+    <video 
+      controls 
+      style="
+        width: 100%;
+        height: 70vh; 
+        border-radius: 12px;
+        box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+        background: #000; 
+        object-fit: contain; 
+      ">
+      <source src="img/one-year.mp4" type="video/mp4">
+      مرورگر شما از تگ ویدئو پشتیبانی نمی‌کند.
+    </video>
+  </div>
 </div>
 
 ---
@@ -352,22 +357,29 @@ https://movieflow.ai/signup?inviteCode=ZCKDT14H
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80vh;
+  height: 80vh; /* یا 85vh */
   margin: 0 auto;
 ">
-<video 
-  controls 
-  style="
-    max-height: 100%;
-    width: auto;
-    max-width: 100%;
-    border-radius: 12px;
-    box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+  <div style="
+    width: 80%; /* یا 80% */
+    text-align: center;
   ">
-<source src="img/From-Traditional-Research-to AI-Powered-Acceleration.mp4" type="video/mp4">
-مرورگر شما از تگ ویدئو پشتیبانی نمی‌کند.
-</video>
+    <video 
+      controls 
+      style="
+        width: 100%;
+        height: 70vh; 
+        border-radius: 12px;
+        box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+        background: #000; 
+        object-fit: contain; 
+      ">
+      <source src="img/From-Traditional-Research-to AI-Powered-Acceleration.mp4" type="video/mp4">
+      مرورگر شما از تگ ویدئو پشتیبانی نمی‌کند.
+    </video>
+  </div>
 </div>
+
 ---
 
 ![bg opacity:0.25](img/multimodal-models-bg.jpg)
