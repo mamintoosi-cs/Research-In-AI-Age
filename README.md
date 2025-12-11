@@ -289,7 +289,7 @@ https://movieflow.ai/signup?inviteCode=ZCKDT14H
   margin: 0 auto;
 ">
   <div style="
-    width: 70%; /* یا 80% */
+    width: 90%; /* یا 80% */
     text-align: center;
   ">
     <video 
@@ -305,9 +305,6 @@ https://movieflow.ai/signup?inviteCode=ZCKDT14H
       <source src="img/Research-Accelerator.mp4" type="video/mp4">
       مرورگر شما از تگ ویدئو پشتیبانی نمی‌کند.
     </video>
-    <div style="margin-top: 15px; font-size: 0.9em;">
-      <strong>شتاب‌دهنده پژوهشی</strong>
-    </div>
   </div>
 </div>
 
