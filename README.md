@@ -160,7 +160,7 @@ td:last-child {
   - DeepSeek (چین)
 
 ---
-![bg opacity:0.25](img/text-to-text-bg.jpg)
+![bg opacity:0.25](img/text-to-text-bg.png)
 ## مدل‌های «تولید متن از متن» (Text → Text)
 
 | نمونه | کاربرد اصلی | وب‌سایت |
@@ -175,18 +175,17 @@ td:last-child {
 
 
 ---
-![bg opacity:0.25](img/text-to-image-free-bg.jpg)
+![bg opacity:0.35](img/text-to-image-bg.png)
 ## تولید تصویر از متن —  (Text → Image)
 
-| ابزار | کاربرد / ویژگی | وب‌سایت |
-|-------|------------------|------------------|
-| [DALL·E](https://openai.com/dall-e) | تولید تصویر از متن با کیفیت بالا | OpenAI |
-| [Stable Diffusion](https://stability.ai) | متن-باز، سفارشی‌سازی، کنترل تنظیمات | Stability AI |
-| [Canva AI](https://www.canva.com) | طراحی گرافیک + تولید تصویر آسان | Canva |
-| [Leonardo AI](https://www.leonardo.ai) | تصویرسازی هنری / مفهومی، برای پروژه و محتوا | Leonardo AI |
-| [Dream by Wombo](https://www.wombo.art) | تولید سریع تصویر با سبک هنری از متن | Wombo |
+| ابزار | کاربرد / ویژگی |
+|-------|----------------------|
+| [Imagine.art](https://www.imagine.art) | تولید تصویر فوری، رایگان، مدل‌های تعاملی |
+| [Text to Image](https://www.texttoimage.org/) |رایگان |
+| [Canva AI](https://www.canva.com) | تولید سریع تصویر + ابزار طراحی |
+| [Leonardo AI](https://www.leonardo.ai) | تصویرسازی هنری / مفهومی |
+| [Dream by Wombo](https://dream.ai/) | تولید تصویر با سبک‌های هنری |
 
-> این ابزارها برای کسانی مناسب‌اند که می‌خواهند بدون هزینه زیاد، تصویرسازی با هوش مصنوعی را آغاز کنند.
 
 
 ---
@@ -215,6 +214,24 @@ td:last-child {
 - تفاوت در واقع‌گرایی، وضوح، سبک هنری  
 - مناسب برای کدام کاربرد؟ (پوستر، ارائه، مقاله، تصویرسازی مفهومی)  
 - برای اطلاعات بیشتر در مورد شیوه تقلید یک اثر هنری در نقاشی ارائه‌ی قبلی با عنوان [انتقال سبک عصبی](https://1drv.ms/p/c/31166a0f5c94f268/EWjylFwPahYggDGCUwAAAAAB8JI2ARAES9QukZKKiM_EHw?e=qsdToe) را ملاحظه فرمایید
+
+---
+
+## تبدیل تصویر به تصویر  (Image → Image)
+![bg right](img/mAmintoosi-50.jpg)
+![bg right](img/Copilot_Mahmood.jpg)
+
+| ابزار | کاربرد / ویژگی |
+|-------|----------------------|
+| [Fotor AI](https://www.fotor.com/features/ai-image-generator/) | روتوش، حذف اشیاء، تبدیل سبک عکس |
+| [Photopea](https://www.photopea.com) | ویرایشگر آنلاین رایگان با فیلترهای هوشمند |
+| [Canva AI](https://www.canva.com) | تغییر خودکار سبک، پس‌زمینه، رنگ‌ها |
+| [Pixlr AI](https://pixlr.com) | اصلاح و انتقال سبک |
+
+
+<!-- > این ابزارها برای ترمیم، تغییر سبک و بهبود کیفیت تصاویر موجود مناسب‌اند. -->
+
+
 ---
 ![bg opacity:0.8](img/one-year-fall-scene.jpg)
 به عنوان جزیی از موضوع، به نحوه ایجاد همین اسلایدها اشاره می شود
@@ -300,64 +317,6 @@ img {
     <source src="img/one-year.mp4" type="video/mp4">
     مرورگر شما از تگ ویدئو پشتیبانی نمی‌کند.
   </video>
-</div>
-
----
-
-<!-- html -->
-<div style="
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 30px; /* فاصله بین ویدئوها */
-  height: 75vh;
-  margin: 0 auto;
-">
-  <!-- ویدئوی اول -->
-  <div style="
-    flex: 1;
-    max-width: 45%;
-    text-align: center;
-  ">
-    <video 
-      controls 
-      style="
-        max-height: 100%;
-        width: 100%;
-        max-width: 100%;
-        border-radius: 12px;
-        box-shadow: 0 6px 20px rgba(0,0,0,0.25);
-      ">
-      <source src="img/AI_Research_Workflow.mp4" type="video/mp4">
-      مرورگر شما از تگ ویدئو پشتیبانی نمی‌کند.
-    </video>
-    <div style="margin-top: 10px; font-size: 0.9em; font-weight: bold;">
-      گردش کار پژوهشی هوش مصنوعی
-    </div>
-  </div>
-  
-  <!-- ویدئوی دوم -->
-  <div style="
-    flex: 1;
-    max-width: 45%;
-    text-align: center;
-  ">
-    <video 
-      controls 
-      style="
-        max-height: 100%;
-        width: 100%;
-        max-width: 100%;
-        border-radius: 12px;
-        box-shadow: 0 6px 20px rgba(0,0,0,0.25);
-      ">
-      <source src="img/Academic_Seasons_Research_Flow.mp4" type="video/mp4">
-      مرورگر شما از تگ ویدئو پشتیبانی نمی‌کند.
-    </video>
-    <div style="margin-top: 10px; font-size: 0.9em; font-weight: bold;">
-      چرخه‌های پژوهشی دانشگاهی
-    </div>
-  </div>
 </div>
 
 ---
