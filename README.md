@@ -285,28 +285,29 @@ https://movieflow.ai/signup?inviteCode=ZCKDT14H
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 90vh;
-  padding: 40px 0;
-  box-sizing: border-box;
+  height: 80vh; /* یا 85vh */
+  margin: 0 auto;
 ">
   <div style="
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    width: 70%; /* یا 80% */
+    text-align: center;
   ">
     <video 
       controls 
       style="
-        max-height: calc(100vh - 100px);
-        width: auto;
-        max-width: 90vw;
+        width: 100%;
+        height: 70vh; /* ارتفاع ثابت مانند کد دو ویدئویی */
         border-radius: 12px;
         box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+        background: #000; /* برای ویدئوهای با aspect ratio متفاوت */
+        object-fit: contain; /* نمایش کامل ویدئو */
       ">
       <source src="img/Research-Accelerator.mp4" type="video/mp4">
       مرورگر شما از تگ ویدئو پشتیبانی نمی‌کند.
     </video>
+    <div style="margin-top: 15px; font-size: 0.9em;">
+      <strong>شتاب‌دهنده پژوهشی</strong>
+    </div>
   </div>
 </div>
 
