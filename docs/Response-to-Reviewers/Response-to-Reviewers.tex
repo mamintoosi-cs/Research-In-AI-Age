@@ -1,0 +1,214 @@
+% Response to Reviewers — Complete, compilable LaTeX file
+% Language: English
+% Purpose: Professional, journal/conference-ready template for "Response to Reviewers"
+% Note: Fixed previous error by loading cleveref and removing an unsupported crefname option
+% Usage: Compile with pdflatex/xelatex/lualatex (all standard packages used)
+
+\documentclass[11pt,a4paper]{article}
+
+%% Preamble: packages and settings
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[english]{babel}
+\usepackage{amsmath}
+
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{microtype}
+\usepackage{setspace}
+\usepackage{enumitem}
+\setlist[itemize]{noitemsep,topsep=0pt}
+\setlist[enumerate]{noitemsep,topsep=0pt}
+
+\usepackage{hyperref}
+\hypersetup{
+  pdftitle={Response to Reviewers},
+  pdfauthor={Author(s)},
+  colorlinks=true,
+  linkcolor=blue,
+  citecolor=blue,
+  urlcolor=blue
+}
+
+% Load cleveref early (provides \crefname etc.)
+\usepackage{cleveref}
+
+% Colored framed environments
+\usepackage{xcolor}
+\usepackage{tcolorbox}
+\tcbuselibrary{theorems,skins}
+
+% --- Define Reviewer Comment environment (visually distinct) ---
+% Note: removed the unsupported 'crefname' key in the tcolorbox options to avoid undefined-control errors.
+\newtcolorbox[
+  auto counter,
+  number within=section
+]{ReviewerComment}[2][]{%
+  enhanced,
+  breakable,
+  colback=white,
+  colframe=black!70,
+  coltitle=black,
+  fonttitle=\bfseries,
+  colbacktitle=black!5,
+  title=Reviewer Comment~\thetcbcounter: #2,
+  attach title to upper,
+  boxrule=0.8pt,
+  left=4pt,
+  right=4pt,
+  top=6pt,
+  bottom=6pt,
+  #1
+}
+
+% --- Define Author Response environment (visually distinct) ---
+\newtcolorbox[
+  auto counter,
+  number within=section
+]{AuthorResponse}[2][]{%
+  enhanced,
+  breakable,
+  colback=blue!5,
+  colframe=blue!60!black,
+  coltitle=black,
+  fonttitle=\bfseries,
+  colbacktitle=blue!10,
+  title=Author Response~\thetcbcounter: #2,
+  attach title to upper,
+  boxrule=0.8pt,
+  left=4pt,
+  right=4pt,
+  top=6pt,
+  bottom=6pt,
+  #1
+}
+
+% Shortcut macros for common metadata at top of a response document
+\newcommand{\ManuscriptTitle}{Manuscript Title: \textit{<Insert full manuscript title here>}}
+\newcommand{\ManuscriptID}{Manuscript ID: <Insert manuscript ID if any>}
+\newcommand{\CorrespondingAuthor}{Corresponding author: <Name>, \texttt{email@example.edu}}
+\newcommand{\RevisionDate}{\today}
+
+% Optionally emphasise which text is changed in manuscript: use \changed{}
+\usepackage{ulem} % for \sout (strikeout) if needed
+\normalem
+\newcommand{\changed}[1]{\textbf{#1}}
+
+% Document begins
+\begin{document}
+
+\begin{center}
+  {\LARGE \textbf{Response to Reviewers}}\\[6pt]
+  {\large \ManuscriptTitle}\\[2pt]
+  {\small \ManuscriptID}\\[6pt]
+  {\small \CorrespondingAuthor}\\[2pt]
+  {\small Revision date: \RevisionDate}
+\end{center}
+
+\vspace{1em}
+
+\noindent Dear Editor and Reviewers,\\[4pt]
+We thank the editor and the reviewers for their careful reading of our manuscript and for the constructive comments. Below we list each reviewer comment in turn and provide our response. Where relevant, we indicate the precise manuscript changes (page/line numbers or section references). Revised text in the manuscript is highlighted in bold in the responses.
+
+\bigskip
+\hrule
+\bigskip
+
+\section*{General response}
+\noindent (Optional) Brief general remarks summarizing major revisions made to the manuscript, e.g.:
+\begin{itemize}
+  \item We have carefully revised the manuscript addressing all reviewer comments.
+  \item Additional experiments were added in Section~4.2 (pages X--Y).
+  \item We corrected typographical errors and updated references.
+\end{itemize}
+
+\bigskip
+\hrule
+\bigskip
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Reviewer 1
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Reviewer 1}
+
+\begin{ReviewerComment}{Major comment on methodology}
+The motivation for using Method A over Method B is not clearly justified. Please provide more detail and, if possible, comparative results.
+\end{ReviewerComment}
+
+\begin{AuthorResponse}{Response to methodology comment}
+We thank the reviewer for this important point. We have expanded Section~3.1 (page 6, lines 110--135) to explain the theoretical reasons for selecting Method A:
+\begin{enumerate}
+  \item Method A provides a bound on the worst-case error under the model assumptions (see new Lemma~1).
+  \item Method A scales linearly in $n$ while Method B scales quadratically, which is critical for large datasets.
+\end{enumerate}
+Additionally, we added a small comparative experiment (new Table~2 and Figure~3) showing that Method A achieves comparable accuracy to Method B while requiring substantially less computation time (see Results, page 12). Changes are marked in the revised manuscript and the exact text added is bolded.
+\end{AuthorResponse}
+
+\begin{ReviewerComment}{Minor comment about notation}
+Equation (4) uses $s$ and $S$ interchangeably. This may confuse readers.
+\end{ReviewerComment}
+
+\begin{AuthorResponse}{Fix for notation}
+Thank you for pointing this out. We have standardized the notation throughout the manuscript: lowercase $s$ is used for scalar indices and uppercase $S$ for sets. The correction is applied on page 4, line 78, and throughout the document.
+\end{AuthorResponse}
+
+% Example of a reviewer with multiple numbered comments
+\section*{Reviewer 2}
+
+\begin{ReviewerComment}{Request for additional experiments (comment 1)}
+The experimental section lacks results on dataset Z. Please include results or justify omission.
+\end{ReviewerComment}
+
+\begin{AuthorResponse}{Response to dataset request}
+We appreciate the suggestion. We have added experiments on dataset Z (Section~4.3, pages 13--15). The results show that our method performs robustly with similar relative improvements as seen on datasets X and Y. Numerical results are presented in the new Table~4. Computational details and hyperparameters for dataset Z are included in the appendix (Appendix~A).
+\end{AuthorResponse}
+
+\begin{ReviewerComment}{Clarify hyperparameter selection (comment 2)}
+How were hyperparameters chosen? Please provide search ranges and selection criteria.
+\end{ReviewerComment}
+
+\begin{AuthorResponse}{Hyperparameter search details}
+We now include a dedicated subsection ``Hyperparameter selection'' (Section~4.1.1) describing search grids and selection criteria (validation set performance). For reproducibility, the full search ranges and seeds are reported in Appendix~B.
+\end{AuthorResponse}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Reviewer 3 (short)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Reviewer 3}
+
+\begin{ReviewerComment}{Typographical issues and reference updates}
+There are several small typos and one outdated reference (Ref. 12).
+\end{ReviewerComment}
+
+\begin{AuthorResponse}{Corrections made}
+We carefully proofread the manuscript and fixed typographical issues throughout. Reference 12 has been updated to the published version (Journal, Year, Volume, Pages). The bibliography has been regenerated accordingly.
+\end{AuthorResponse}
+
+\bigskip
+\hrule
+\bigskip
+
+\section*{List of changes (concise)}
+\begin{enumerate}
+  \item Revised Section~3.1: Motivation and theoretical justification for Method A (new Lemma~1).
+  \item Added experiments on dataset Z (Section~4.3, Table~4).
+  \item Included hyperparameter search details (Section~4.1.1 and Appendix~B).
+  \item Corrected notation and typographical errors; updated Reference~12.
+\end{enumerate}
+
+\bigskip
+
+\section*{How to use this template}
+\begin{itemize}
+  \item Use each \texttt{ReviewerComment} environment to paste the exact reviewer text (verbatim if desired).
+  \item Use the subsequent \texttt{AuthorResponse} to reply point-by-point. If you address multiple sub-points, you may subdivide responses with enumerated lists.
+  \item When referring to changes in the revised manuscript, provide precise locations (page and line numbers) and, if appropriate, quote the revised sentence or paragraph in bold.
+  \item If appropriate, include short excerpts of revised manuscript text in the Author Response, using \verb|\textbf{...}| to indicate the inserted/modified text. Avoid pasting long blocks of manuscript text into the response file; instead reference manuscript locations.
+\end{itemize}
+
+\vfill
+
+\noindent Sincerely,\\[4pt]
+The Authors
+
+\end{document}
