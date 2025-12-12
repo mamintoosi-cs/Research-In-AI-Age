@@ -156,17 +156,78 @@ td:last-child {
 
 ![bg opacity:0.3](img/AI-gemini-generated.jpg)
 
-## هوش مصنوعی مولد چیست؟
+### هوش مصنوعی مولد چیست؟
 
-- **تعریف:** مدل‌هایی که یاد می‌گیرند محتوای جدید «خلق» کنند
+- **تعریف:**    مدل‌هایی که براساس الگوهای یادگرفته‌شده از داده‌ها، محتوای جدید «تولید» می‌کنند  
 
-  - مانند یک نویسنده، نقاش، یا برنامه‌نویس
+- مانند یک نویسنده، نقاش، یا برنامه‌نویس
 
 - **مدل‌های محبوب:**
   - ChatGPT (OpenAI)
   - Claude (Anthropic)
   - Gemini (Google)
   - DeepSeek (چین)
+
+در ادامه چند نمونه از هر یک را با مدلهای مختلف خواهیم دید
+
+---
+
+خروجی ChatGPT
+
+| دسته مدل | نمونه‌ها |
+|---------|-----------|
+| **مدل‌های زبانی (LLMs)** | [ChatGPT](https://chatgpt.com), [Gemini](https://gemini.google.com), [DeepSeek](https://chat.deepseek.com) |
+| **متن ← تصویر (Text-to-Image)** | [DALL·E](https://openai.com/dall-e), [Stable Diffusion](https://stability.ai) |
+| **تصویر ← متن (Image Captioning)** | [GPT-4o Vision](https://chatgpt.com), [Florence-2](https://huggingface.co/microsoft/Florence-2-large) |
+| **متن ← ویدئو (Text-to-Video)** | [Runway](https://runwayml.com), [Pika](https://www.pika.art) |
+| **مدل‌های چندوجهی (Multimodal)** | [GPT-4o](https://chatgpt.com), [Gemini 1.5](https://gemini.google.com) |
+| **مدل‌های بینایی-زبانی (VLMs)** | [Qwen-VL](https://huggingface.co/Qwen), [DeepSeek-VL](https://chat.deepseek.com) |
+| **مدل‌های تخصصی (ریاضی / کدنویسی)** | [DeepSeek-Math](https://chat.deepseek.com), [StarCoder2](https://huggingface.co/bigcode) |
+
+
+---
+
+خروجی گروک
+
+| دسته مدل | نمونه‌ها | دلیل |
+|---------|-----------|---------|
+| **مدل‌های زبانی (LLMs)** | GPT-5, Grok-4 | [medium.com](https://medium.com/design-bootcamp/top-5-llms-dominating-leaderboards-in-2025-c1d2d6fa38e2) |
+| **متن ← تصویر (Text-to-Image)** | Imagen 3, GPT-4o | [zdnet.com](https://www.zdnet.com/article/best-ai-image-generator/) |
+| **تصویر ← متن (Image Captioning)** | InternVL3-76B, Molmo | [hiringnet.com](https://hiringnet.com/image-captioning-state-of-the-art-open-source-ai-models-in-2025) |
+| **متن ← ویدئو (Text-to-Video)** | Sora, Veo | [zapier.com](https://zapier.com/blog/best-ai-video-generator/) |
+| **مدل‌های چندوجهی (Multimodal)** | GPT-4o, Gemini 1.5 | [timesofai.com](https://www.timesofai.com/industry-insights/top-multimodal-ai-models/) |
+| **مدل‌های بینایی-زبانی (VLMs)** | Gemini 2.5 Pro, GPT-4.1 | [dextralabs.com](https://dextralabs.com/blog/top-10-vision-language-models/) |
+| **مدل‌های تخصصی (ریاضی / کدنویسی)** | Gemini 3 Pro, GPT-5.1 | [epoch.ai](https://epoch.ai/frontiermath) |
+
+---
+
+خروجی جمینای
+| دسته مدل | مدل‌های منتخب | مرجع بنچمارک |
+| :--- | :--- | :--- |
+| **مدل‌های زبانی** | GPT-4o, Gemini 1.5 Pro | [LMSYS Chatbot Arena](https://chat.lmsys.org/?leaderboard) |
+| **متن به تصویر** | FLUX.1 [pro], Midjourney v6 | [Artificial Analysis](https://artificialanalysis.ai/models/text-to-image) |
+| **توصیف تصویر** | Florence-2, Qwen2-VL | [OpenVLM Leaderboard](https://huggingface.co/spaces/opencompass/open_vlm_leaderboard) |
+| **متن به ویدئو** | Runway Gen-3, Kling AI | [Video Gen Leaderboard](https://huggingface.co/spaces/ArtificialAnalysis/Video-Generation-Leaderboard) |
+| **مدل‌های چندوجهی** | GPT-4o, Claude 3.5 Sonnet | [MMMU Benchmark](https://mmmu-benchmark.github.io/) |
+| **بینایی-زبانی** | InternVL2, Qwen2-VL | [OpenCompass](https://huggingface.co/spaces/opencompass/open_vlm_leaderboard) |
+| **تخصصی (ریاضی/کد)** | OpenAI o1, Claude 3.5 Sonnet | [Epoch AI](https://epoch.ai/frontiermath), [LiveCodeBench](https://livecodebench.github.io/leaderboard.html) |
+
+---
+
+![bg](img/gemini-limit.png)
+
+---
+![bg](img/LLM-comparing-Dec-2025.png)
+
+######[AI model Grok 4.2 wins Alpha Arena trading tournament](https://forklog.com/en/ai-model-grok-4-2-triumphs-in-trading-tournament/)
+
+---
+<!-- html -->
+<iframe src="https://llm-stats.com/benchmarks"></iframe>
+
+---
+<!-- html -->
+<iframe src="https://llm-stats.com/benchmarks" height="300px" width="100%" frameBorder="0"></iframe> 
 
 ---
 
@@ -552,10 +613,6 @@ https://movieflow.ai/signup?inviteCode=ZCKDT14H
 - استنتاج ریاضی: فرمول Image Matting
 - شکن و ...
 - مارک داون
-
----
-
-با ارسال تصویر کارت دانشگاه حساب کاربری من در گیت هاب کوپایلوت که معمولی بود، Pro شد 🤩 و محدودیت ۵۰ چت رو دیگه ندارم
 
 ---
 
@@ -1077,4 +1134,7 @@ age, income, education بخواند و همبستگی بین
 - DeepSeek: https://chat.deepseek.com/
 - ChatGPT: https://chatgpt.com/
 
-**این اسلاید‌ها:** [لینک گیت‌هاب شما]
+---
+
+
+[وضعیت استفاده همیشگی از چت جی پی تی ](https://www.linkedin.com/posts/javascript-developer_ugcPost-7384140167781203968-wacI/?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAAOJuuQBXOxwxA1yTcLTn5k4LxDTJOQDmUA)
