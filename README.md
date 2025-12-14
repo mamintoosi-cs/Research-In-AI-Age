@@ -63,6 +63,12 @@ style: |
 
 ---
 
+![bg right](img/mAmintoosi-50.jpg)
+
+## تمام تصاویر و ویدئوهای این ارائه که در آن تصویر اینجانب آمده است با هوش مصنوعی مولد و فقط با دادن این عکس و دستور متنی تولید شده‌اند
+
+---
+
 ## سرفصل‌های ارائه
 
 1. هوش مصنوعی مولد: انقلاب در پژوهش
@@ -70,33 +76,6 @@ style: |
 3. مهندسی پرامپت: کلید استفاده موثر
 4. فرصت‌ها در علوم کامپیوتر
 5. چالش‌ها و ملاحظات اخلاقی
-
----
-
-<!-- html -->
-<div style="
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 80vh;
-  margin: 0 auto;
-">
-  <video 
-    autoplay 
-    loop 
-    muted 
-    controls 
-    style="
-      max-height: 90%;
-      width: auto;
-      max-width: 90%;
-      border-radius: 12px;
-      box-shadow: 0 6px 20px rgba(0,0,0,0.25);
-    ">
-    <source src="img/Classical-Academic-Researcher.mp4" type="video/mp4">
-    مرورگر شما از تگ ویدئو پشتیبانی نمی‌کند.
-  </video>
-</div>
 
 ---
 
@@ -145,11 +124,36 @@ td:last-child {
 }
 </style>
 
+
 ---
 
-![bg right](img/mAmintoosi-50.jpg)
-
-## تمام تصاویر و ویدئوهای این ارائه که در آن تصویر اینجانب آمده است با هوش مصنوعی مولد و فقط با دادن این عکس و دستور متنی تولید شده‌اند
+<!-- html -->
+<div style="
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh; /* یا 85vh */
+  margin: 0 auto;
+">
+  <div style="
+    width: 80%; /* یا 80% */
+    text-align: center;
+  ">
+    <video 
+      controls 
+      style="
+        width: 100%;
+        height: 70vh; 
+        border-radius: 12px;
+        box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+        background: #000; 
+        object-fit: contain; 
+      ">
+      <source src="img/Research-Accelerator.mp4" type="video/mp4">
+      مرورگر شما از تگ ویدئو پشتیبانی نمی‌کند.
+    </video>
+  </div>
+</div>
 
 ---
 
@@ -161,13 +165,14 @@ td:last-child {
 
 - مانند یک نویسنده، نقاش، یا برنامه‌نویس
 
-- **مدل‌های محبوب:**
-  - ChatGPT (OpenAI)
-  - Claude (Anthropic)
-  - Gemini (Google)
-  - DeepSeek (چین)
-
-در ادامه چند نمونه از هر یک را با مدلهای مختلف خواهیم دید
+| نام مدل | شرکت/توسعه‌دهنده | وب‌سایت |
+| :--- | :--- | :--- |
+| **ChatGPT** | OpenAI | [chatgpt.com](https://chatgpt.com) |
+| **Claude** | Anthropic | [anthropic.com/claude](https://www.anthropic.com/claude) |
+| **Gemini** | Google | [gemini.google.com](https://gemini.google.com) |
+| **DeepSeek** | DeepSeek (چین) | [chat.deepseek.com](https://chat.deepseek.com) |
+| **Grok** | xAI | [grok.com](https://grok.com) |
+| **GLM (Z.AI)** | Zhipu AI (چین) | [z.ai](https://z.ai) |
 
 ---
 
@@ -232,15 +237,17 @@ td:last-child {
 
 ![bg opacity:0.25](img/text-to-text-bg.png)
 
-## مدل‌های «تولید متن از متن» (Text ← Text)
+### مدل‌های «تولید متن از متن» (Text ← Text)
 
-| نمونه                                              | کاربرد اصلی                | وب‌سایت   |
+| نمونه                                              | کاربرد اصلی                |مالک   |
 | -------------------------------------------------- | -------------------------- | --------- |
 | [ChatGPT](https://chatgpt.com)                     | گفتگو، کدنویسی، نگارش علمی | OpenAI    |
 | [Claude](https://claude.ai)                        | تحلیل عمیق، استدلال متنی   | Anthropic |
 | [Gemini](https://gemini.google.com)                | چندوجهی، جستجوی هوشمند     | Google    |
 | [DeepSeek](https://chat.deepseek.com)              | استدلال و کدنویسی          | DeepSeek  |
 | [Microsoft Copilot](https://copilot.microsoft.com) | دستیار برنامه‌نویسی و آفیس | Microsoft |
+| [Grok](https://grok.com)                           | گفتگو با دسترسی به داده‌های X | xAI      |
+| [GLM (Z.AI)](https://z.ai)                         | کدنویسی و وظایف تخصصی      | Zhipu AI  |
 
 > این گروه، ستون فقرات ابزارهای پژوهشی مبتنی بر LLM محسوب می‌شود.
 
@@ -342,35 +349,6 @@ https://movieflow.ai/signup?inviteCode=ZCKDT14H
 |:---:|:---:|
 | ![](img/Trial-01-02.jpg) | ![](img/Trial-01-03.jpg) | -->
 
----
-
-<!-- html -->
-<div style="
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 80vh; /* یا 85vh */
-  margin: 0 auto;
-">
-  <div style="
-    width: 80%; /* یا 80% */
-    text-align: center;
-  ">
-    <video 
-      controls 
-      style="
-        width: 100%;
-        height: 70vh; 
-        border-radius: 12px;
-        box-shadow: 0 6px 20px rgba(0,0,0,0.25);
-        background: #000; 
-        object-fit: contain; 
-      ">
-      <source src="img/Research-Accelerator.mp4" type="video/mp4">
-      مرورگر شما از تگ ویدئو پشتیبانی نمی‌کند.
-    </video>
-  </div>
-</div>
 
 <!-- <iframe src="https://example.com"></iframe>
 
@@ -414,35 +392,7 @@ https://movieflow.ai/signup?inviteCode=ZCKDT14H
   </div>
 </div>
 
----
 
-<!-- html -->
-<div style="
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 80vh; /* یا 85vh */
-  margin: 0 auto;
-">
-  <div style="
-    width: 80%; /* یا 80% */
-    text-align: center;
-  ">
-    <video 
-      controls 
-      style="
-        width: 100%;
-        height: 70vh; 
-        border-radius: 12px;
-        box-shadow: 0 6px 20px rgba(0,0,0,0.25);
-        background: #000; 
-        object-fit: contain; 
-      ">
-      <source src="img/From-Traditional-Research-to AI-Powered-Acceleration.mp4" type="video/mp4">
-      مرورگر شما از تگ ویدئو پشتیبانی نمی‌کند.
-    </video>
-  </div>
-</div>
 
 ---
 
@@ -789,6 +739,35 @@ https://movieflow.ai/signup?inviteCode=ZCKDT14H
 
 ---
 
+<!-- html -->
+<div style="
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh; /* یا 85vh */
+  margin: 0 auto;
+">
+  <div style="
+    width: 80%; /* یا 80% */
+    text-align: center;
+  ">
+    <video 
+      controls 
+      style="
+        width: 100%;
+        height: 70vh; 
+        border-radius: 12px;
+        box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+        background: #000; 
+        object-fit: contain; 
+      ">
+      <source src="img/From-Traditional-Research-to AI-Powered-Acceleration.mp4" type="video/mp4">
+      مرورگر شما از تگ ویدئو پشتیبانی نمی‌کند.
+    </video>
+  </div>
+</div>
+---
+
 ## چرا پرامپت‌نویسی مهم است؟
 
 ### 🎯 پرامپت = دستورالعمل شما برای AI
@@ -1039,13 +1018,15 @@ Cover Letter
 ![bg](img/copilot/10-revised-paper.png)
 
 ---
-
+![bg opacity:0.2](img/Kevin-Zhu-NeurIPS-2025.png)
 ## مثلا ما خوشحالیم که مقاله آماده شد 😃
 
 اما
 
 - نظراتی که برای داور نوشته همون نظرات داور نیستند!
 - نمی‌توانیم مطمئن باشیم که بخشهای اصلی مقاله خراب نشده باشند!
+- ملت دارن با سرعت مقاله می‌نویسن و حتما در صفی طولانی قرار خواهیم گرفت!
+  * [Kevin Zhu](https://neurips.cc/virtual/2025/search?query=Kevin+Zhu)
 
 ---
 
@@ -1059,6 +1040,34 @@ Cover Letter
 | ----------------- | ------------------------------------------------------------------------------- |
 | **تسریع کدنویسی** | تکمیل هوشمند کد، رفع خطا، بازنویسی تمیز، پیشنهاد معماری/الگوها، تولید Unit Test |
 | **تحلیل داده**    | نوشتن کد تحلیل، پیشنهاد روش آماری، تولید نمودار و گزارش، خلاصه‌سازی داده        |
+
+
+---
+
+<!-- html -->
+<div style="
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  margin: 0 auto;
+">
+  <video 
+    autoplay 
+    loop 
+    muted 
+    controls 
+    style="
+      max-height: 90%;
+      width: auto;
+      max-width: 90%;
+      border-radius: 12px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+    ">
+    <source src="img/Classical-Academic-Researcher.mp4" type="video/mp4">
+    مرورگر شما از تگ ویدئو پشتیبانی نمی‌کند.
+  </video>
+</div>
 
 ---
 
@@ -1076,7 +1085,15 @@ Cover Letter
 > AI بهترین ابزار برای توسعه سریع نمونه اولیه در پروژه‌های دانشجویی و پژوهشی است.
 
 ---
+![bg opacity:0.5](img/Curriculum_4_Disciplines.png)
+## [جدول پیشنهادی دروس  رشته‌های دانشکده علوم ریاضی](https://mamintoosi-cs.github.io/tmp/ds/Curriculum_4_Disciplines.html)
 
+---
+![bg opacity:0.6](img/Exam-Generation.png)
+
+## [سامانه طرح سؤال از مطالب درسی](https://github.com/sirnaser/modern-qg)
+
+---
 ![bg opacity:0.18](img/ai-ethics-bg.jpg)
 
 ## چالش‌ها و ملاحظات اخلاقی در استفاده از هوش مصنوعی
