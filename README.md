@@ -9,7 +9,7 @@ size: 16:9
 author: Mahmood Amintoosi
 transition: fade
 direction: rtl
-backgroundColor: '#a39280ff'  <!-- رنگ کرم مایل به قهوه‌ای -->
+backgroundColor: '#88735dff'  
 style: |
   section {
     font-family: 'Vazirmatn', 'B Nazanin', 'Tahoma', sans-serif;
@@ -346,7 +346,9 @@ https://movieflow.ai/signup?inviteCode=ZCKDT14H
 ">
   
   <div style="width: 25%; text-align: center;">
-    # برای تولید ویدئو باید با استفاده از مدلهای زبانی سناریو نوشته شود.
+  <h3>
+    برای تولید ویدئو با استفاده از مدلهای زبانی    <a href="https://grok.com/share/c2hhcmQtMg_729a6609-5444-47b6-8619-9c8db0d3b5a3">  سناریو </a>     نوشته شود
+    </h3>
     </div>
   <div style="width: 70%; text-align: center;">
     <video 
@@ -365,43 +367,6 @@ https://movieflow.ai/signup?inviteCode=ZCKDT14H
     <div style="margin-top: 10px;"><strong>From Past</strong></div>
   </div>
 </div>
-
----
-
-![bg opacity:0.8](img/one-year-surperised.jpg)
-
-# برای تولید ویدئو باید با استفاده از مدلهای زبانی سناریو نوشته شود.
-
----
-
-<!-- html -->
-<div style="
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 80vh; /* یا 85vh */
-  margin: 0 auto;
-">
-  <div style="
-    width: 80%; /* یا 80% */
-    text-align: center;
-  ">
-    <video 
-      controls 
-      style="
-        width: 100%;
-        height: 70vh; 
-        border-radius: 12px;
-        box-shadow: 0 6px 20px rgba(0,0,0,0.25);
-        background: #000; 
-        object-fit: contain; 
-      ">
-      <source src="img/one-year.mp4" type="video/mp4">
-      مرورگر شما از تگ ویدئو پشتیبانی نمی‌کند.
-    </video>
-  </div>
-</div>
-
 
 ---
 
@@ -757,8 +722,6 @@ https://movieflow.ai/signup?inviteCode=ZCKDT14H
   height: 70vh; /* یا 85vh */
   margin: 0 auto;
 ">
-<h2> بخش سوم</h2>
-<h3> مهندسی پرامپت: کلید استفاده موثر از مدلهای هوش مصنوعی</h3>
   <div style="
     width: 70%; /* یا 80% */
     text-align: center;
@@ -777,6 +740,8 @@ https://movieflow.ai/signup?inviteCode=ZCKDT14H
       مرورگر شما از تگ ویدئو پشتیبانی نمی‌کند.
     </video>
   </div>
+<h2> بخش سوم</h2>
+<h3> مهندسی پرامپت: کلید استفاده موثر از مدلهای هوش مصنوعی</h3>
 </div>
 
 ---
