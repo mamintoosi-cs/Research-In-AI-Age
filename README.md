@@ -75,6 +75,7 @@ style: |
 ---
 
 ![bg right](img/poster.jpg)
+![bg right](img/old-new-era.jpg)
 
 ## سرفصل‌های ارائه
 
@@ -183,7 +184,7 @@ td:last-child {
 
 ---
 
-خروجی جمینای
+خروجی جمینای!؟!
 | دسته مدل | مدل‌های منتخب | مرجع بنچمارک |
 | :--- | :--- | :--- |
 | **مدل‌های زبانی** | GPT-4o, Gemini 1.5 Pro | [LMSYS Chatbot Arena](https://chat.lmsys.org/?leaderboard) |
