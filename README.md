@@ -74,7 +74,7 @@ style: |
 
 ---
 
-![bg right](img/old-new-era.jpg)
+![bg right](img/poster.jpg)
 
 ## سرفصل‌های ارائه
 
