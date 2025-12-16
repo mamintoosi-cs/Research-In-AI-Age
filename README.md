@@ -364,7 +364,6 @@ https://movieflow.ai/signup?inviteCode=ZCKDT14H
       ">
       <source src="img/one-year.mp4" type="video/mp4">
     </video>
-    <div style="margin-top: 10px;"><strong>From Past</strong></div>
   </div>
 </div>
 
@@ -717,11 +716,26 @@ https://movieflow.ai/signup?inviteCode=ZCKDT14H
 <!-- html -->
 <div style="
   display: flex;
-  justify-content: center;
+  flex-direction: column; /* تغییر به ستونی */
+  justify-content: flex-start; /* شروع از بالا */
   align-items: center;
-  height: 70vh; /* یا 85vh */
+  height: auto; /* ارتفاع خودکار */
   margin: 0 auto;
+  padding: 20px; /* فاصله داخلی */
 ">
+  <!-- متن در بالای ویدئو -->
+  <div style="
+    text-align: center;
+    margin-bottom: 30px; /* فاصله با ویدئو */
+    width: 100%;
+  ">
+    <h2 style="margin-bottom: 10px; color: #333;">بخش سوم</h2>
+    <h3 style="margin: 0; color: #555; font-weight: normal;">
+      مهندسی پرامپت: کلید استفاده موثر از مدل‌های هوش مصنوعی
+    </h3>
+  </div>
+  
+  <!-- ویدئو در پایین متن -->
   <div style="
     width: 70%; /* یا 80% */
     text-align: center;
@@ -730,7 +744,7 @@ https://movieflow.ai/signup?inviteCode=ZCKDT14H
       controls 
       style="
         width: 100%;
-        height: 70vh; 
+        height: 60vh; /* کمی کوچکتر شده */
         border-radius: 12px;
         box-shadow: 0 6px 20px rgba(0,0,0,0.25);
         background: #000; 
@@ -740,8 +754,6 @@ https://movieflow.ai/signup?inviteCode=ZCKDT14H
       مرورگر شما از تگ ویدئو پشتیبانی نمی‌کند.
     </video>
   </div>
-<h2> بخش سوم</h2>
-<h3> مهندسی پرامپت: کلید استفاده موثر از مدلهای هوش مصنوعی</h3>
 </div>
 
 ---
