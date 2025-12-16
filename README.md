@@ -716,42 +716,31 @@ https://movieflow.ai/signup?inviteCode=ZCKDT14H
 <!-- html -->
 <div style="
   display: flex;
-  flex-direction: column; /* تغییر به ستونی */
-  justify-content: flex-start; /* شروع از بالا */
+  gap: 30px;
+  justify-content: center;
   align-items: center;
-  height: auto; /* ارتفاع خودکار */
-  margin: 0 auto;
-  padding: 20px; /* فاصله داخلی */
+  height: 70vh;
 ">
-  <!-- متن در بالای ویدئو -->
-  <div style="
-    text-align: center;
-    margin-bottom: 30px; /* فاصله با ویدئو */
-    width: 100%;
-  ">
-    <h2 style="margin-bottom: 10px; color: #333;">بخش سوم</h2>
-    <h3 style="margin: 0; color: #555; font-weight: normal;">
+  
+  <div style="width: 25%; text-align: center;">
+    <h2>بخش سوم</h2>
+    <h3>
       مهندسی پرامپت: کلید استفاده موثر از مدل‌های هوش مصنوعی
     </h3>
-  </div>
-  
-  <!-- ویدئو در پایین متن -->
-  <div style="
-    width: 70%; /* یا 80% */
-    text-align: center;
-  ">
+    </div>
+  <div style="width: 70%; text-align: center;">
     <video 
-      controls 
+      autoplay 
+      loop 
+      muted 
+      controls
       style="
         width: 100%;
-        height: 60vh; /* کمی کوچکتر شده */
-        border-radius: 12px;
-        box-shadow: 0 6px 20px rgba(0,0,0,0.25);
-        background: #000; 
-        object-fit: contain; 
+        height: 60vh;
+        border-radius: 10px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.2);
       ">
       <source src="img/From-Traditional-Research-to AI-Powered-Acceleration.mp4" type="video/mp4">
-      مرورگر شما از تگ ویدئو پشتیبانی نمی‌کند.
     </video>
   </div>
 </div>
@@ -1027,31 +1016,33 @@ Cover Letter
 <!-- html -->
 <div style="
   display: flex;
+  gap: 30px;
   justify-content: center;
   align-items: center;
-  height: 80vh;
-  margin: 0 auto;
+  height: 70vh;
 ">
-<h2> بخش چهارم
-</h2>
-<h3>
- فرصت‌های هوش مصنوعی در علوم کامپیوتر
- </h3>
-  <video 
-    autoplay 
-    loop 
-    muted 
-    controls 
-    style="
-      max-height: 70%;
-      width: auto;
-      max-width: 70%;
-      border-radius: 12px;
-      box-shadow: 0 6px 20px rgba(0,0,0,0.25);
-    ">
-    <source src="img/Classical-Academic-Researcher.mp4" type="video/mp4">
-    مرورگر شما از تگ ویدئو پشتیبانی نمی‌کند.
-  </video>
+  
+  <div style="width: 25%; text-align: center;">
+    <h2>بخش چهارم</h2>
+    <h3>
+       فرصت‌های هوش مصنوعی در علوم/مهندسی کامپیوتر
+    </h3>
+    </div>
+  <div style="width: 70%; text-align: center;">
+    <video 
+      autoplay 
+      loop 
+      muted 
+      controls
+      style="
+        width: 100%;
+        height: 60vh;
+        border-radius: 10px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+      ">
+      <source src="img/Classical-Academic-Researcher.mp4" type="video/mp4">
+    </video>
+  </div>
 </div>
 
 ---
@@ -1074,7 +1065,7 @@ Cover Letter
 
 - تولید نسخه اولیه (Prototype) از **backend** و **frontend** تنها با توصیف متنی
 - تولید APIهای اولیه، مستندات، و تست‌های خودکار
-- تبدیل ایده به شبه‌کد و به کد قابل‌اجرا
+<!-- - تبدیل ایده به شبه‌کد و به کد قابل‌اجرا -->
 - ایجاد اسکریپت‌های کامل برای پیش‌پردازش داده
 - پیشنهاد معماری مناسب برای مدل‌های یادگیری ماشین
 - تولید گزارش تحلیلی از داده‌ها + توضیح نمودارها
@@ -1083,15 +1074,15 @@ Cover Letter
 
 ---
 
-![bg opacity:0.5](img/Curriculum_4_Disciplines.png)
+![bg opacity:0.9](img/Curriculum_4_Disciplines.png)
 
-## [جدول پیشنهادی دروس رشته‌های دانشکده علوم ریاضی](https://mamintoosi-cs.github.io/tmp/ds/Curriculum_4_Disciplines.html)
+## [جداول پیشنهادی دروس رشته‌های دانشکده علوم ریاضی ](https://mamintoosi-cs.github.io/tmp/ds/Curriculum_4_Disciplines.html) 
 
 ---
 
-![bg opacity:0.6](img/Exam-Generation.png)
+![bg opacity:0.8](img/Exam-Generation.png)
 
-## [سامانه طرح سؤال از مطالب درسی](https://github.com/sirnaser/modern-qg)
+## [سامانه ](https://github.com/sirnaser/modern-qg) طرح سؤال از مطالب درسی
 
 ---
 
@@ -1100,8 +1091,7 @@ Cover Letter
 ## سامانه پاسخگویی مبتنی بر RAG
 
 در این پروژه، یک سامانه پاسخ‌گویی به پرسش مبتنی بر RAG طراحی و پیاده‌سازی شده است که به جای اتکا به دانش ضمنی مدل زبانی، ابتدا بخش‌های مرتبط از اسناد ورودی را بازیابی کرده و سپس پاسخ را فقط بر اساس همان شواهد تولید می‌کند.
-کل سیستم، شامل بک‌اند، API و رابط کاربری وب، به‌صورت یکپارچه در محیط VSCode و با هوش مصنوعی مولد
-توسعه داده شده است.
+کل سیستم، شامل بک‌اند، API و رابط کاربری وب، به‌صورت یکپارچه در محیط VSCode و با هوش مصنوعی مولد توسعه داده شده است.
 
 ---
 
@@ -1112,6 +1102,8 @@ Cover Letter
 ---
 
 ![bg](img/copilot/20-RAG-copilot-commit.png)
+
+ پیشنهاد خودکار متن کامیت
 
 ---
 
