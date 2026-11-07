@@ -3,3 +3,5 @@ act
 /.cloud-attachments
 build/README.pdf
 build/README.pptx
+push.log
+*.log
